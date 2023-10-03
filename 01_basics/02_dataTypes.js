@@ -24,4 +24,5 @@ console.log(3
     console.log(typeof 22); //number
     console.log(typeof null); //object
     console.log(typeof undefined); //undefined
+
     
