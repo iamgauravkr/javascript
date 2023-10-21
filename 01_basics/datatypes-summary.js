@@ -8,7 +8,7 @@ const isloggedIn=false   //typeof isloggedIn: Boolean
 const outsideTemp=null  //typeof outsideTemp is :Object
 let userEmail;
 
-const Id=Symbol('1233')   // typeof  Id:Symbol
+const Id=Symbol('123')   // typeof  Id:Symbol
 const anotherId=Symbol('123')  //typeof anotherId: Symbol
 // console.log(Id==anotherId);//false
 
