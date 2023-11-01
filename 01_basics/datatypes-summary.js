@@ -29,4 +29,35 @@ let myFunction=function(){                        //typeof  myFunction: function
     console.log("Hello World");
 }
 
-console.log(typeof  myFunction);
+//console.log(typeof  myFunction);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//  Stack(Primitive i.e. call by value)   , Heap(Non-Primitive i.e reference)
+//++examples of stack
+let myYoutubeName = "Saurav ka safar"
+let anotherName = myYoutubeName
+ anotherName = "Welcome to cricket world"
+
+ console.log(myYoutubeName);
+ console.log(anotherName);
+ 
+ //in stack data copied i.e. in ABOVE EXAMPLE data(saurav ka safar) will be copied in anotherName NOW WE CHANGE THE VALUE OF anotherName by 
+ // Welcome  to cricket world here we clearly see that only the value of anotherName changed not myYoutubeName bacause data is copied.
+ //but in case of heap , heap used reference type i.e. in this case dublicate and original data both will be changed
+
+
+ //examples of heap
+let userOne = {
+    email : "user@googleg.com",
+    upi: "user@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "gk@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+//here both original and dublicate  data changed because heap used reference data type.
