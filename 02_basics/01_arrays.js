@@ -28,12 +28,13 @@ const newArry = myArray.join()
 // console.log(typeof newArry);  //string
 
 //Slice   , Splice
-
+//slice returns a piece of the array but it doesn't affect the original array. 
+//splice changes the original array by removing, replacing, or adding values and returns the affected values.
 console.log("A",myArray);
 
 const myn1 = myArray.slice(1,3)
-
 console.log(myn1);
+
 console.log("B",myArray);
 
 const myn2 = myArray.splice(1,3)
